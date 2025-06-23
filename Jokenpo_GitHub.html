@@ -22,7 +22,7 @@
             let computador = Math.floor(Math.random() * 3) + 1;
 
             // Mostra o que cada número significa
-            function mostrarEscolha(numero) {
+            function mostrar_escolha(numero) {
               if (numero === 1) return "Pedra";
               if (numero === 2) return "Papel";
               if (numero === 3) return "Tesoura";
@@ -45,8 +45,8 @@
 
             // Mostra tudo no alert
             alert(
-              "Você escolheu: " + mostrarEscolha(jogador) +
-              "\nComputador escolheu: " + mostrarEscolha(computador) +
+              "Você escolheu: " + mostrar_escolha(jogador) +
+              "\nComputador escolheu: " + mostrar_escolha(computador) +
               "\n\n" + resultado
             );
 

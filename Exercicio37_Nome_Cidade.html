@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome e Cidade</title>
+</head>
+<body>
+    <script>
+        // Usuario vai digitar o nome e a cidade de onde está
+        // Essas infos vão passar por uma função
+        // Caso a cidade seja Rio de Janeiro, a resposta deverá ser
+        // Seja bem-vinda à Cidade Maravilhosa
+        // Caso contrário, exibirá só o nome e a cidade
+        // usar passagem de parâmetros
+   
+        const nome = prompt ("Qual o seu nome?");
+        const cidade = prompt ("Qual a cidade em que você mora?");
+
+          
+        function saudar (nome, cidade) {
+
+        if (cidade == "Rio de Janeiro") {
+            alert ("Bem-vinda à Cidade Maravilhosa, " + nome);
+        
+        } else {
+            alert ("Seja bem-vinda de " + cidade);
+        }
+        
+    }
+        
+        saudar (nome, cidade)
+
+    </script>
+</body>
+</html>
