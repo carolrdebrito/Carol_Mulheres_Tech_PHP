@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo Versão 01</title>
+</head>
+<body>
+    <script>
+        // Versão 1 -> Ver qual jogada ganha
+
+        jogador = prompt("Digite sua jogada: Pedra, Papel ou Tesoura")
+
+        jogadas = ['Pedra', 'Papel', 'Tesoura']
+        pc = jogadas[Math.floor(Math.random()*3)]
+
+        if(jogador == 'Pedra'){
+            if(pc == 'Tesoura'){
+                alert('Jogador ganhou')
+            }
+            else if(pc == 'Papel'){
+                alert('PC ganhou')
+            }
+            else{
+                alert('Empate')
+            }
+        }
+        else if(jogador == 'Tesoura'){
+            if(pc=='Papel'){
+                alert('Jogador ganhou')
+            }
+            else if(pc == 'Pedra'){
+                alert('PC ganhou')
+            }
+            else{
+                alert('Empate')
+            }
+        }
+        else if(jogador == 'Papel'){
+            if(pc == 'Pedra'){
+                alert('Jogador ganhou')
+            }
+            else if(pc == 'Tesoura'){
+                alert('PC ganhou')
+            }
+            else{
+                alert('Empate')
+            }
+        }
+
+
+    </script>
+</body>
+</html>
