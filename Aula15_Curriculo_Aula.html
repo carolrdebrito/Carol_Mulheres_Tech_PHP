@@ -28,6 +28,15 @@
         div.Resumo {
             color: lightslategrey;
         }
+        .Resumo #steelblue {
+            color: steelblue;
+            /*o ponto significa classe
+            # signigica id
+            color: steelblue; */
+        }
+
+        /* div.Resumo p#steelblue{
+            color: steelblue; */
 
 
         h3 {
@@ -72,8 +81,9 @@
     os hs vão até o h6 em importância -->
 
 
-    <section> <!-- sessão dos sites-->
-        <div class="Resumo">
+    <section> <!-- sessão dos sites, semântica -->
+        <div class="Resumo"> <!-- não é semântica, mas é uma caixa onde se coloca os elementos -->
+            <!-- class é um agrupamento de outro agrupamento. exp. sala = tag, parte = classe lado esquerdo -->
             <h3>Resumo</h3> <!-- Para aparecer o lorem ipsum, escrever lorem -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Ullam quisquam consectetur illo saepe.
@@ -81,7 +91,7 @@
                 cum enim nam, quia nobis quaerat.</p>
 
 
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <p id="steelblue"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Asperiores ratione expedita sunt repellat totam ad,
                 quisquam nam eligendi dolores fuga adipisci rem enim repellendus eaque accusantium corporis fugit,
                 neque iure.</p>
@@ -90,7 +100,7 @@
 
         <div class="Experiencia">
             <h3>Experiência Profissional</h3>
-            <ul> <!-- ul é lista não ordenada. o li sempre vai estar junto do ul. Para ser ordenada, se usa ol-->
+            <ul> <!-- ul é lista não ordenada. o li sempre vai estar junto do ul. Para ser ordenada, se usa ol -->
                 <li>Redatora no site Cinematizando - Abril/2023 até Agosto/2023</li>
                 <li>Editora de Livros na empresa Freelancer - Janeiro/2020 até Dezembro/2023</li>
                 <li>Assistente de Redação na empresa Rio2016 - Janeiro/2016 até Outubro/2016</li>
@@ -132,7 +142,7 @@
     </section>
 
 
-    <footer> <!-- Rodapé do site-->
+    <footer> <!-- Rodapé do site, tag do tipo semântica (dá sentido à algo)-->
         <p>Currículo de Ana Carolina de Brito &copy; <!-- copyright --> 2025</p>
     </footer>
 
