@@ -63,4 +63,3 @@ conta1.transf (50, conta2)
 console.log (conta1.saldo)
 
 conta1.gerarExtrato ()
-
