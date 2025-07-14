@@ -1,0 +1,78 @@
+.pt-serif-caption-regular {
+    font-family: "PT Serif Caption", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* copiar do site e colocar aqui o código de css */
+
+
+/* aqui é tudo css */
+header {
+    text-align: center
+}
+
+
+.titulo-principal {
+    color: #92D9F5;
+    font-size: 40px;
+}
+
+
+#subtitulo {
+    color: #E9A6CC;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+div.Resumo {
+    color: lightslategrey;
+}
+
+
+.Resumo #steelblue {
+    color: steelblue;
+    /* o ponto significa classe
+    # signigica id */
+}
+
+
+/* div.Resumo p#steelblue{
+    color: steelblue; */
+
+
+h3 {
+    color: darkseagreen;
+}
+
+
+div.Experiencia {
+    color: lightslategrey;
+}
+
+
+div.Formacao {
+    color: lightslategrey;
+}
+
+
+div.Cursos {
+    color: lightslategrey;
+}
+
+
+div.Idiomas {
+    color: lightslategrey;
+}
+
+.menu ul li {
+     display: inline-block;
+     border: 3px solid #FADB3A;
+     background-color: #92D9F5;
+
+     /* menu em linha,
+     bordas solidas com a cor amarela e 
+     cor dentro do bloco */
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <script>
+        // Sequência de Fibonacci até 2000
+        anterior = 0
+        atual = 1
+        proximo = anterior + atual
+        document.write (proximo + '<br>')
+        
+        while (proximo <= 2000){
+            anterior = atual
+            atual = proximo
+            proximo = atual + anterior
+            document.write (proximo + '<br>')
+
+        }
+
+
+    </script>
+</body>
+</html>

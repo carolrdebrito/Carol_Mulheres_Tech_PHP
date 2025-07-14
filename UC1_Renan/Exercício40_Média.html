@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula11</title>
+</head>
+<body>
+    <script>
+        // Pegar 10 números do usuário
+        // calcular a soma dos números
+        // calcular a média dos números
+        // Começamos com 3#
+
+        lista = []
+        qtd = 3
+        soma = 0
+        // 0 é o elemento neutro da soma, tudo somado com 0 dá o próprio número
+        // se fosse vezes, seria 1
+        // se não definir como 0, vai dar contas aleatórias
+        // nesse caso, o for é um loop para pegar as entradas do usuário
+        for (i = 0; i < qtd; i++){
+            lista [i] = +(prompt ("Digite um número"))
+            soma = soma + lista[i]
+            // seria x = x + 1 em matemática
+            // o soma à esquerda do = só guarda o resultado
+            
+            // atalho para não escrever o for de cima
+            // soma += lista[i]
+            // += é um atalho de atribuição
+        }
+
+        media = soma/qtd
+
+        alert ("A soma é: " + soma +
+        "\nA média é: " + media)
+    </script>
+</body>
+</html>
+
