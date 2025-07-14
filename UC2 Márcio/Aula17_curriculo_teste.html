@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo v.3</title>
+    <!-- a taglink serve para importar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+    <!-- copiar do site e colar aqui o código de html -->
+
+    <style>
+        .pt-serif-caption-regular {
+            font-family: "PT Serif Caption", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        /* copiar do site e colocar aqui o código de css */
+
+
+        /* aqui é tudo css */
+        header {
+            text-align: center
+        }
+
+
+        .titulo-principal {
+            color: #92D9F5;
+            font-size: 40px;
+        }
+
+        #subtitulo {
+            color: #E9A6CC;
+            font-style: normal;
+            font-size: 25px;
+        }
+
+
+
+        div.Resumo {
+            color: lightslategrey;
+        }
+
+        .Resumo #steelblue {
+            color: steelblue;
+            /* o ponto significa classe
+            # signigica id */
+        }
+
+        /* div.Resumo p#steelblue{
+            color: steelblue; */
+
+
+        h3 {
+            color: darkseagreen;
+        }
+
+
+        div.Experiencia {
+            color: lightslategrey;
+        }
+
+
+        div.Formacao {
+            color: lightslategrey;
+        }
+
+
+        div.Cursos {
+            color: lightslategrey;
+        }
+
+
+        div.Idiomas {
+            color: lightslategrey;
+        }
+    </style>
+</head>
+
+
+<body class="pt-serif-caption-regular">
+    <figure> <!-- indicar que é uma figura-->
+        <img src="panda.png" width="300px" alt="Imagem de um urso panda que os pelos pretos e brancos,
+    com marcas pretas ao redor dos olhos e as orelhas da mesma cor." title="Urso panda">
+        <!-- alt = alternate text = é bom para acessibilidade 
+    pode pedir para o chatgpt descrever a imagem 
+    para textar, procurar no windows "narrador" 
+    title = tag que nomeia a foto -->
+        <!-- title="" é um atributo que aparece qnd se passa o mouse em cima da imagem -->
+        <figcaption> <!-- legenda da foto que aparece no site -->
+            <p>Figura 1. Imagem de um panda</p>
+        </figcaption>
+    </figure>
+
+
+    <header> <!-- header é cabeçalho que não muda visualmente, mas tem valor semântico -->
+        <h1 class="titulo-principal">Ana Carolina Rodrigues de Brito</h1>
+        <h2 class="titulo-principal" id="subtitulo">carolrdebrito@gmail.com</h2>
+        <h2 class="titulo-principal" id="subtitulo">(21) 9 7896 5769</h2>
+        <!-- <h1> é um título, vai ser maior
+    <h2> é um subtítulo, vai ser menor
+    os hs vão até o h6 em importância -->
+    </header>
+</body>
+
+
+
+<section> <!-- sessão dos sites, semântica -->
+    <div class="Resumo"> <!-- não é semântica, mas é uma caixa onde se coloca os elementos -->
+        <!-- class é um agrupamento de outro agrupamento. exp. sala = tag, parte = classe lado esquerdo -->
+        <h3>Resumo</h3> <!-- Para aparecer o lorem ipsum, escrever lorem -->
+        <p> O panda-gigante é um mamífero de cor preto e branco que come bambu (folhas). A pelagem é grossa e lanosa
+            para suportar as baixas temperaturas no ambiente subalpino em que vive. As manchas oculares, membros,
+            orelhas e uma faixa que atravessa os ombros são negras; alguma vezes com um tom acastanhado. As
+            restantes partes do corpo são brancas, mas podem-se tornar "encardido" com a idade. A população da região de
+            Qingling apresenta a pelagem em dois tons contrastantes de castanho.</p>
+
+
+        <p id="steelblue"> Da xiong mao (大熊猫), o nome em chinês para o panda, significa grande urso-gato. Pode ser
+            chamado também de huaxiong (urso de faixa), maoxiong (urso felino) ou xiongmao (gato ursino). Registros
+            históricos de 3000 anos ("O Livro de História e o Livro de Canções", a coleção mais antiga da poesia
+            chinesa), o mencionam sob o nome de pi e pixiu. A palavra panda significa algo parecido com "comedor de
+            bambu" </p>
+    </div>
+
+
+    <div class="Experiencia">
+        <h3>Experiência Profissional</h3>
+        <ul> <!-- ul é lista não ordenada. o li sempre vai estar junto do ul. Para ser ordenada, se usa ol -->
+            <li>Redatora no site Cinematizando - Abril/2023 até Agosto/2023</li>
+            <li>Editora de Livros na empresa Freelancer - Janeiro/2020 até Dezembro/2023</li>
+            <li>Assistente de Redação na empresa Rio2016 - Janeiro/2016 até Outubro/2016</li>
+        </ul>
+
+
+    </div>
+
+
+    <div class="Formacao">
+        <h3>Formação Acadêmica</h3>
+        <ul>
+            <li>Técnico em Guia de Turismo - SENAC/Copacabana - Maio/2023 até Maio/2024</li>
+            <li>Jornalismo - FACHA/Botafogo - Janeiro/2010 - Julho/2015</li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="Cursos">
+        <h3>Cursos e Certificados</h3>
+        <ul>
+            <li>Programação em PHP - Faculdade SENAC Santa Luzia - Junho/2025 até o momento</li>
+            <li>Google Cloud Foundations - Faculdade SENAC Santa Luzia - Agosto/2025 até Dezembro/2025</li>
+            <li>Introdução à Analise de Dados - Cisco Academy EAD - Agosto/2025 até Setembro/2025</li>
+        </ul>
+    </div>
+
+
+    <div class="Idiomas">
+        <h3>Idiomas</h3>
+        <ul>
+            <li>Diploma de Inglês na empresa Cultura Inglesa - Fevereiro/2004 até Julho 2009</li>
+            <li>Pacote Office</li>
+        </ul>
+
+
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <div class="video">
+                <!-- display:flex posiciona os elementos em linha, lado a lado -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l73rmrLTHQc?si=GDqekVPv5-d9ro5u"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.066450553663!2d-43.17679718831089!3d-22.910919737933785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9981df66f6020b%3A0x5fed1e66fa865506!2sFaculdade%20Senac%20RJ!5e0!3m2!1spt-BR!2sbr!4v1752245177094!5m2!1spt-BR!2sbr"
+                    width="600" height="315" style="border:1;" allowfullscreen="true" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+</section>
+
+
+<footer> <!-- Rodapé do site, tag do tipo semântica (dá sentido à algo)-->
+    <p>Currículo de Ana Carolina de Brito &copy; <!-- copyright --> 2025</p>
+</footer>
+
+</body>
+
+</html>
+
+
+<!-- Para alinhar se usa ctrl + shift + f
+Para quebrar a linha é <br> -->
+
+
+<!-- As tags header, section e div só tem valores semânticos -->
