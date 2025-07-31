@@ -1,0 +1,22 @@
+body {
+  font-family: "Martel", serif;
+  font-size: 1rem; /* texto normal */
+}
+
+h1, h2, h3 {
+  font-family: "Delius Swash Caps", cursive;
+  font-size: 2rem; /* títulos maiores */
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 1.25rem; /* títulos menores */
+  margin-bottom: 0.4rem;
+}
+
+ul, ul li {
+  font-size: 0.95rem; /* tamanho um pouco menor para lista */
+  margin-left: 0;
+  padding-left: 20px;
+}
